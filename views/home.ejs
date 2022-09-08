@@ -1,0 +1,15 @@
+<%- include("partials/header") %>
+    <h1>Home</h1>
+    <p><%=p1%></p>
+
+    <%composeOutput.forEach(function(compose){%>
+        <h1><%=compose.Title%></h1>
+        <p><%=compose.Post.substring(0,50) + "...." %>
+             <a href= "/posts/<%=compose.Title%>">Read More</a> %>
+            </p>
+    <%})%>
+    
+
+<%console.log(composeOutput)%>
+
+<%-include("partials/footer")%>    
