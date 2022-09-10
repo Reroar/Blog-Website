@@ -6,7 +6,7 @@ const ejs = require("ejs");
 const port = process.env.PORT || 5000
 
 const homeStartingContent =
-  "Hola!! Welcome to my blog website. Here you can posts your daily thoughts and feelings anonymously and and can be read by anyone who visits this website";
+  "Hola!! Welcome to my blog website. Here you can posts your daily thoughts anonymously and and can be read by anyone who visits this website";
 const aboutContent =
   "I am Rounit Singh, currently pursuing B.tech from Madan Mohan Malaviya University of Technology, and is learning to be a MERN stack developer";
 const contactContent =

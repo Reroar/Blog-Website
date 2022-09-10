@@ -5,9 +5,20 @@
     padding-left: 20px;
     font-size: 25px;
     color: #ffffff;
+    transition: all 0.3s ease 0s;
+    /* position: fixed; */
+    /* height: 10vh; */
+    /* top: 0; */
 
 
 }
+
+.navbar-head:hover{
+    /* color: #1C6758; */
+    /* transition: all 0.3s ease 0s; */
+   font-weight: bold;
+}
+
 /* .navbar_list{
     text-align: right;
     display: inline-block;
@@ -19,6 +30,7 @@ body{
     padding: 0;
     background-color: #ffffff;
     overflow-x: hidden;
+    min-height: 70vh;
 }
 
  li, a, button {
@@ -41,6 +53,7 @@ header{
     align-items: center;
     padding: 0px 0px;
     background-color: #F1A661;
+    /* position: fixed; */
 }
 
 nav{
@@ -99,10 +112,22 @@ ul.navbar_list{
     font-family: 'Montserrat', sans-serif;
 }
 
+
+.blogEach{
+    background-color: #FDEEDC;
+    margin: 15px;
+    border-radius: 8px;
+    padding: 0px 5px;
+}
+
+.titleClass{
+    color: lightcoral;
+}
 .compose{
     /* overflow-y: hidden; */
     width: 100%;
     padding: 10px 15px;
+    color: #E38B29;
     font-family: 'Montserrat', sans-serif;
 }
 

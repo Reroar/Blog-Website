@@ -3,15 +3,18 @@
     <!-- <h1>Home</h1> -->
     <p><%=p1%></p>
 </div>
-
+<div class="blog">
+    
     <%composeOutput.forEach(function(compose){%>
-        <h1><%=compose.Title%></h1>
+        <div class="blogEach">
+        <h1 class="titleClass"><%=compose.Title%></h1>
         <p><%=compose.Post.substring(0,50) + "...." %>
              <a id="a2" href= "/posts/<%=compose.Title%>">Read More</a> %>
             </p>
+        </div>
     <%})%>
-    
+</div>    
 
-<%console.log(composeOutput)%>
+<!-- <%console.log(composeOutput)%> -->
 
 <%-include("partials/footer")%>    
