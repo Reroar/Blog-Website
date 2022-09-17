@@ -8,7 +8,7 @@
     <%composeOutput.forEach(function(compose){%>
         <div class="blogEach">
         <h1 class="titleClass"><%=compose.Title%></h1>
-        <p><%=compose.Post.substring(0,50) + "...." %>
+        <p class = "bodyTitle"><%=compose.Post.substring(0,50) + "...." %>
              <a id="a2" href= "/posts/<%=compose.Title%>">Read More</a> %>
             </p>
         </div>
